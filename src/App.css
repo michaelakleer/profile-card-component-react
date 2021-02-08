@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.App {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 8px;
+  max-width: 25%;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.info {
+  display: flex;
+}
