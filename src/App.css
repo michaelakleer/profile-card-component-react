@@ -2,8 +2,24 @@ html {
   height: 100%;
 }
 
+h1 {
+  font-size: 18px;
+  display: inline;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 14px;
+  color: #6b7082;
+  font-weight: 300;
+}
+
 li {
   list-style: none;
+}
+
+ul {
+  padding: 0;
 }
 
 .App {
@@ -11,8 +27,10 @@ li {
   margin: 0 auto;
   border: 1px solid #000;
   border-radius: 8px;
-  max-width: 25%;
+  width: 350px;
+  height: 374px;
   font-family: "Kumbh Sans", sans-serif;
+  background-image: url(images/bg-pattern-top.svg);
 }
 
 .container {
@@ -21,4 +39,45 @@ li {
 
 .info {
   display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0;
+}
+
+.age {
+  color: #6b7082;
+  padding-left: 10px;
+}
+
+.header {
+  background-image: url(images/bg-pattern-card.svg);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 140px;
+}
+
+.photo {
+  padding-top: 88px;
+}
+
+.image {
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.profile {
+  margin-top: 40px;
+  padding: 30px 0 12px;
+  border-bottom: 1px solid #e8e9ec;
+}
+
+.number {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.category {
+  padding-top: 8px;
+  font-size: 10px;
+  color: #6b7082;
+  letter-spacing: 1px;
 }
