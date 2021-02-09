@@ -23,18 +23,18 @@ ul {
 }
 
 .App {
-  display: block;
-  margin: 0 auto;
-  border: 1px solid #000;
-  border-radius: 8px;
-  width: 350px;
-  height: 374px;
   font-family: "Kumbh Sans", sans-serif;
   background-image: url(images/bg-pattern-top.svg);
 }
 
 .container {
+  display: block;
+  margin: 0 auto;
   text-align: center;
+  border: 1px solid #000;
+  border-radius: 8px;
+  width: 350px;
+  height: 374px;
 }
 
 .info {
