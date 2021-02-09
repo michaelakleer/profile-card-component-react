@@ -1,5 +1,5 @@
-html {
-  height: 100%;
+* {
+  box-sizing: border-box;
 }
 
 h1 {
@@ -24,14 +24,16 @@ ul {
 
 .App {
   font-family: "Kumbh Sans", sans-serif;
-  background-image: url(images/bg-pattern-top.svg);
+  min-height: 100vh;
+  background: hsl(185, 75%, 39%);
 }
 
 .container {
+  background: #fff;
   display: block;
   margin: 0 auto;
   text-align: center;
-  border: 1px solid #000;
+
   border-radius: 8px;
   width: 350px;
   height: 374px;
