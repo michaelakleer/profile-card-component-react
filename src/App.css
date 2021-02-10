@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -12,6 +14,7 @@ h2 {
   font-size: 14px;
   color: #6b7082;
   font-weight: 300;
+  padding-top: 12px;
 }
 
 li {
@@ -24,29 +27,35 @@ ul {
 
 .App {
   font-family: "Kumbh Sans", sans-serif;
-  min-height: 100vh;
   background: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   background: #fff;
-  display: block;
-  margin: 0 auto;
   text-align: center;
   border-radius: 8px;
-  width: 350px;
-  height: 374px;
+  z-index: 2;
 }
 
 .info {
   display: flex;
   justify-content: space-evenly;
-  padding: 15px 0;
+  padding: 22px 18px 0 5px;
+  border-top: 1px solid #e8e9ec;
 }
 
 .age {
   color: #6b7082;
   padding-left: 10px;
+}
+
+.topCircle,
+.bottomCircle {
+  position: absolute;
+  z-index: 1;
 }
 
 .header {
@@ -63,12 +72,12 @@ ul {
 .image {
   border-radius: 50%;
   border: 5px solid #fff;
+  background: #fff;
 }
 
 .profile {
-  margin-top: 40px;
+  margin: 40px 0 15px;
   padding: 30px 0 12px;
-  border-bottom: 1px solid #e8e9ec;
 }
 
 .number {
@@ -77,8 +86,74 @@ ul {
 }
 
 .category {
-  padding-top: 8px;
+  padding-top: 9px;
   font-size: 10px;
   color: #6b7082;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 1025px) {
+  .App {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .container {
+    width: 350px;
+    height: 374px;
+  }
+
+  .topCircle {
+    top: -540px;
+    left: -300px;
+  }
+
+  .bottomCircle {
+    bottom: -650px;
+    right: -275px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .App {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .container {
+    width: 350px;
+    height: 374px;
+  }
+
+  .topCircle {
+    top: -540px;
+    left: -300px;
+  }
+
+  .bottomCircle {
+    bottom: -650px;
+    right: -275px;
+  }
+}
+
+@media (max-width: 767px) {
+  .App {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .container {
+    width: 326px;
+    height: 374px;
+  }
+
+  .topCircle {
+    top: -540px;
+    left: -300px;
+  }
+
+  .bottomCircle {
+    bottom: -650px;
+    right: -275px;
+  }
 }
