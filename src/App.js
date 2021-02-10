@@ -16,7 +16,6 @@ export default function App() {
           <span className="age">26</span>
           <h2>London</h2>
         </div>
-
         <div className="info">
           <ul>
             <li className="number">80K</li>
