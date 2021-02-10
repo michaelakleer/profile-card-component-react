@@ -1,10 +1,16 @@
 import React from "react";
 import "./App.css";
 import Victor from "./images/image-victor.jpg";
+import Top from "./images/bg-pattern-top.svg";
+import Bottom from "./images/bg-pattern-bottom.svg";
 
 export default function App() {
   return (
     <div className="App">
+      <div className="circle">
+        <img src={Top} alt="Top Circle" className="topCircle" />
+        <img src={Bottom} alt="Bottom Circle" className="bottomCircle" />
+      </div>
       <div className="container">
         <div className="header">
           <div className="photo">
