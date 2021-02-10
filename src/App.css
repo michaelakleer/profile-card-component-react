@@ -33,10 +33,10 @@ ul {
   display: block;
   margin: 0 auto;
   text-align: center;
-
   border-radius: 8px;
   width: 350px;
   height: 374px;
+  align-items: center;
 }
 
 .info {
