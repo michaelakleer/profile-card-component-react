@@ -125,6 +125,9 @@ ul {
   .App {
     height: 100vh;
     width: 100vw;
+    background: url(./images/bg-pattern-top.svg) no-repeat right 300px bottom
+        560px,
+      url(./images/bg-pattern-bottom.svg) no-repeat left 285px top 550px;
   }
 
   .container {
@@ -147,9 +150,9 @@ ul {
   .App {
     height: 100vh;
     width: 100vw;
-    background: url(./images/bg-pattern-top.svg) no-repeat right 50px bottom
-        270px,
-      url(./images/bg-pattern-bottom.svg) no-repeat left 50px top 345px;
+    background: url(./images/bg-pattern-top.svg) no-repeat right 170px bottom
+        260px,
+      url(./images/bg-pattern-bottom.svg) no-repeat left 135px top 290px;
   }
 
   .circle img {
